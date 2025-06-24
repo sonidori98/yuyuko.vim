@@ -88,7 +88,7 @@ if s:t_Co >= 256
   hi Wildmenu               ctermfg=15   ctermbg=105  cterm=NONE guifg=#ffffff guibg=#8787ff gui=NONE
 	hi LineNr                 ctermfg=182  ctermbg=235  cterm=NONE guifg=#dfafdf guibg=#262626 gui=NONE
 	hi Cursor                 ctermfg=242  ctermbg=235  cterm=NONE guifg=NONE    guibg=#666666 gui=NONE
-  hi CursorLine             ctermfg=NONE ctermbg=NONE cterm=underline          guifg=NONE    guibg=NONE gui=underline
+  hi CursorLine             ctermfg=NONE ctermbg=NONE cterm=underline          guifg=NONE    guibg=NONE gui=NONE
   hi CursorColumn           ctermfg=NONE ctermbg=NONE cterm=bold guifg=NONE    guibg=NONE    gui=bold                " need improve maybe
   hi CursorLineNr           ctermfg=104  ctermbg=235  cterm=NONE guifg=#8787df guibg=#262626 gui=NONE
 	hi ColorColumn            ctermfg=225  ctermbg=235  cterm=NONE guifg=#ffdfff guibg=#262626 gui=NONE
@@ -100,12 +100,12 @@ if s:t_Co >= 256
 	hi Title                  ctermfg=212  ctermbg=235  cterm=NONE guifg=#ff87df guibg=#262626 gui=NONE
 	hi Boolean                ctermfg=147  ctermbg=235  cterm=NONE guifg=#afafff guibg=#262626 gui=NONE
 	hi MatchParen             ctermfg=212  ctermbg=15   cterm=NONE guifg=#ff87df guibg=#262626 gui=NONE
-	hi StorangeClass          ctermfg=225  ctermbg=235  cterm=NONE guifg=#ffdfff guibg=#262626 gui=NONE
+	hi StorageClass           ctermfg=225  ctermbg=235  cterm=NONE guifg=#ffdfff guibg=#262626 gui=NONE
 	hi Function               ctermfg=225  ctermbg=235  cterm=NONE guifg=#ffdfff guibg=#262626 gui=NONE
 	hi Quote                  ctermfg=207  ctermbg=235  cterm=NONE guifg=#ff5fff guibg=#262626 gui=NONE
 	hi Folded                 ctermfg=212  ctermbg=242  cterm=NONE guifg=#ff87df guibg=#666666 gui=NONE
-	hi FoldColumn             ctermfg=212  ctermbg=242  cterm=NONE guifg=#ff87df guibg=#666666 gui=NONE
-	hi SignColumn             ctermfg=212  ctermbg=242  cterm=NONE guifg=#ff87df guibg=#666666 gui=NONE
+	hi FoldColumn             ctermfg=212  ctermbg=242  cterm=NONE guifg=#ff87df guibg=#262626 gui=NONE
+	hi SignColumn             ctermfg=235  ctermbg=235  cterm=NONE guifg=#ff87df guibg=#262626 gui=NONE
 	hi Directory              ctermfg=212  ctermbg=235  cterm=NONE guifg=#ff87df guibg=#262626 gui=NONE
 	hi Identifier             ctermfg=153  ctermbg=235  cterm=NONE guifg=#afd7ff guibg=#262626 gui=NONE
 	hi SpecialKey             ctermfg=153  ctermbg=235  cterm=NONE guifg=#afd7ff guibg=#262626 gui=NONE
@@ -155,6 +155,7 @@ if s:t_Co >= 256
 	hi netrwVersion           ctermfg=147  ctermbg=235  cterm=NONE guifg=#afafff guibg=#262626 gui=NONE
 	hi yamlBlockMappingKey    ctermfg=153  ctermbg=235  cterm=NONE guifg=#afd7ff guibg=#262626 gui=NONE
 	hi yamlPlainScalar        ctermfg=225  ctermbg=235  cterm=NONE guifg=#ffdfff guibg=#262626 gui=NONE
+	hi NeoTreeFileName        guifg=#ffdfff guibg=#262626
   unlet s:t_Co
   finish
 endif
